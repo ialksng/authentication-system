@@ -10,3 +10,5 @@ npm i morgan & use morgan in app.js
 add server.js
 add "dev": "npx nodemon server.js" in package.json 
 npm run dev to start the server
+create mongodb cluster
+
