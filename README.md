@@ -15,3 +15,4 @@ create .env, add it in .gitignore and install dotenv
 create src/config/config.js to access env varbs
 create src/config/database.js
 add import connectDB in server.js
+add env varb validation check in config.js
