@@ -13,3 +13,4 @@ npm run dev to start the server
 create mongodb cluster
 create .env, add it in .gitignore and install dotenv
 create src/config/config.js to access env varbs
+create src/config/database.js
