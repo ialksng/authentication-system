@@ -11,4 +11,4 @@ add server.js
 add "dev": "npx nodemon server.js" in package.json 
 npm run dev to start the server
 create mongodb cluster
-
+create .env, add it in .gitignore and install dotenv
