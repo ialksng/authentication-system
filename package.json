@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/ialksng/authentication-system/issues"
   },
-  "homepage": "https://github.com/ialksng/authentication-system#readme"
+  "homepage": "https://github.com/ialksng/authentication-system#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  }
 }
