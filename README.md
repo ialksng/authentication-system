@@ -16,4 +16,6 @@ create src/config/config.js to access env varbs
 create src/config/database.js
 add import connectDB in server.js
 add env varb validation check in config.js
-create src/models/user.model.js 
+create src/models/user.model.js for user schema
+create src/routes/auth.routes.js to create api to register user
+import authRouter in app.js
