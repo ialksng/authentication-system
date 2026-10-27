@@ -22,3 +22,8 @@ import authRouter in app.js
 add declaration of register user api route, this api demands data in request.body
 create src/controllers/auth.controllers.js to write logic for each route 
 Password is always stored in hash format to avoid leaks
+Till now, user request to register and server saved password in the DB. Now, server will create a token
+npm i jsonwebtoken & import it in controller
+jwt secret is required, go to jwtsecrets.com 7 put secret in .env file & update config file 
+import config in auth controller
+
