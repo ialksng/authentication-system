@@ -19,3 +19,6 @@ add env varb validation check in config.js
 create src/models/user.model.js for user schema
 create src/routes/auth.routes.js to create api to register user
 import authRouter in app.js
+add declaration of register user api route, this api demands data in request.body
+create src/controllers/auth.controllers.js to write logic for each route 
+Password is always stored in hash format to avoid leaks
