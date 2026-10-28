@@ -26,4 +26,7 @@ Till now, user request to register and server saved password in the DB. Now, ser
 npm i jsonwebtoken & import it in controller
 jwt secret is required, go to jwtsecrets.com 7 put secret in .env file & update config file 
 import config in auth controller
-
+check post request of register via postman
+So far register user is implemented successfully
+new endpoint is being created in order to identify the user by the server based on its request
+add get-me route in auth routes & create it in controller

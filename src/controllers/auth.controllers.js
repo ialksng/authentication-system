@@ -38,3 +38,7 @@ export async function registerUser(req, res) {
     })
 
 }
+
+export async function getMe(req, res) {
+
+}
